@@ -1,4 +1,5 @@
 def str_func(stri):
+    """Функция, возвращающая каждую букву заглавной"""
     return stri.upper()
 
 
