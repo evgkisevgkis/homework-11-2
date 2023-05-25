@@ -5,4 +5,5 @@ def str_func(stri):
 
 def word_func(enter):
     """Функция, которая возвращает каждое слово из строки с первой большой буквой"""
-    return enter.title()
+    proxy = enter
+    return proxy.title()
